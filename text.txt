@@ -1,0 +1,20 @@
+npm i -D tailwindcss@3    <-1st command 
+npx tailwindcss init -p   <-2nd command 
+
+Folder= src/input.css     <-3rd command 
+
+inside the css file import == {
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+}
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch  <-4th command
+
+in tailwind.config.js file << in content[] << add <<"./src/**/*.{html,js}" << or <<  *.html
+
+output.css file created...
+
+in index.html << link the output.css using the <link> and start writing code...  use the src/output.css
