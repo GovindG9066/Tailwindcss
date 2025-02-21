@@ -2,19 +2,22 @@
 
 > use the first command to start tailwindcss version 3. 
 ```
-npm i -D tailwindcss@3    <-1st command 
+npm i -D tailwindcss@3    
+                        <-1st command 
 ```
 
 
 >initilizing the tailwind css using the command
 
 ```
-npx tailwindcss init -p   <-2nd command 
+npx tailwindcss init -p     
+                        <-2nd command 
 ```
 >create a folder name src and inside the folder create a file name input .css
 
 ```
-Folder= src/input.css     <-3rd command 
+Folder= src/input.css     
+                        <-3rd command 
 ```
 >inside the input.css file  add the below commands
 
@@ -31,11 +34,12 @@ inside the css file import == {
 ```
 "./src/**/*.{html,js}" 
 or
-*.html
+"*.html"
 ```
 >run this command in the terminal
 ```
-npx tailwindcss -i ./src/input.css -o ./src/output.css --watch  <-4th command
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch  
+                                                                <-4th command
 ```
 
 >output.css file created in src folder...
