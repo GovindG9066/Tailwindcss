@@ -35,6 +35,8 @@ inside the css file import == {
 "./src/**/*.{html,js}" 
 or
 "*.html"
+or
+./index.html", "./src/**/*.{html,js}"
 ```
 >run this command in the terminal
 ```
