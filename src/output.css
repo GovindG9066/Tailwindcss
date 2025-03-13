@@ -554,6 +554,14 @@ video {
   display: none;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -582,8 +590,21 @@ video {
   height: 80px;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .cursor-pointer {
@@ -602,19 +623,53 @@ video {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-red-600 {
   --tw-border-opacity: 1;
   border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
+}
+
+.border-green-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));
+}
+
+.border-cyan-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 116 144 / var(--tw-border-opacity, 1));
 }
 
 .bg-gray-300 {
@@ -627,6 +682,14 @@ video {
   background-color: rgb(148 163 184 / var(--tw-bg-opacity, 1));
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -634,6 +697,24 @@ video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -653,6 +734,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
 }
 
 .drop-shadow-xl {
