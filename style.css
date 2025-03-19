@@ -1,0 +1,4 @@
+.move-btn{
+    transform: translateX(100%);
+    transition: all 0.5s ease-in ease-out;
+}
