@@ -51,10 +51,10 @@ btn_cont.addEventListener("click", () => {
     </div> */}
 
 let product_container = document.querySelector(".product-container");
-let product_element =document.createElement("div");
-let product_item = product_element.classList.add("product-item");
 function product_list(src, product_title, desc, price) {
-    product_item.innerHTML= `
+    let product_element =document.createElement("div");
+    product_element.classList.add("product-item,border,border-gray-200");
+    product_element.innerHTML= `
         <div class= "flex w-full border ">
             <div class="hover:shadow-2xl border border-purple-500 hover:-translate-y-2 hover:translate-x-1 transition-all duration-150 ease-in-out w-full h-full p-3 m-2 rounded-lg">
                 <div class="img-box w-1/2 rounded-lg h-52  m-auto">
@@ -68,7 +68,10 @@ function product_list(src, product_title, desc, price) {
             <div class="cart border rounded-xl p-2 font-bold bg-orange-300 hover:bg-orange-400 cursor-pointer">
                     add to cart</div>
         </div>`;
-        product_container.appendChild(product_item);
+        product_container.appendChild(product_element);
 
 }
+product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
+product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
+product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
 product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
