@@ -35,25 +35,11 @@ btn_cont.addEventListener("click", () => {
 
 })
 
-{/* <div class= "flex w-full border ">
-<div class="hover:shadow-2xl border border-purple-500 hover:-translate-y-2 hover:translate-x-1 transition-all duration-150 ease-in-out w-full h-full p-3 m-2 rounded-lg">
-    <div class="img-box w-1/2 rounded-lg h-52  m-auto">
-        <img src="images/product1.png" class="h-full" alt="">
-    </div>
-    <h2 class="pl-2 text-xl font-bold text-blue-600">Perfurm product</h2>
-    <div class="product-info pl-2 text-lg min-h-32 dark:text-white ">This is amezing product</div>
-    <div class="price-cart-section flex justify-evenly">
-        <div class="price p-2 border rounded-xl font-bold bg-blue-400 hover:bg-blue-500 cursor-pointer">
-            Price- <span>$5.33</span></div>
-        <div
-            class="cart border rounded-xl p-2 font-bold bg-orange-300 hover:bg-orange-400 cursor-pointer">
-            add to cart</div>
-    </div> */}
 
 let product_container = document.querySelector(".product-container");
 function product_list(src, product_title, desc, price) {
     let product_element =document.createElement("div");
-    product_element.classList.add("product-item,border,border-gray-200");
+    product_element.classList.add("product-item,flex,w-full,");
     product_element.innerHTML= `
         <div class= "flex w-full border ">
             <div class="hover:shadow-2xl border border-purple-500 hover:-translate-y-2 hover:translate-x-1 transition-all duration-150 ease-in-out w-full h-full p-3 m-2 rounded-lg">
