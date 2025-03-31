@@ -50,6 +50,6 @@ function product_list(src, product_title, desc, price) {
 
 }
 product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
-product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
-product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
-product_list("images/product1.png","Perfurm product","This is amezing product","5.33");
+product_list("images/product2.jpg","Perfurm product","This is amezing product","6.02");
+product_list("images/product3.jpg","Perfurm product","This is amezing product","1.99");
+product_list("images/product4.jpg","Perfurm product","This is amezing product","7.35");
